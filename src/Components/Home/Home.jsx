@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './home.scss'
 import video from '../../Assets/video1.mp4'
 import { CiLocationOn } from "react-icons/ci";
-import { HiFilter } from "react-icons/hi";
+import { FaSearch } from "react-icons/fa";
 import { FiFacebook } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 import { FaTripadvisor } from "react-icons/fa";
@@ -65,8 +65,8 @@ const Home = () => {
           </div>
 
           <div className="searchOptions flex">
-            <HiFilter className='icon' />
-            <span>MORE FILTERS</span>
+            <FaSearch className='icon' />
+            <span>Search</span>
           </div>
         </div>
 
